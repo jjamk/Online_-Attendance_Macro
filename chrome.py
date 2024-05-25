@@ -32,7 +32,7 @@ driver.get("https://lms.konyang.ac.kr/login/doLoginPage.dunet")
 
 # 아이디/패스워드
 user_id = '19615001'
-user_pw = 'dkrlwhrqkf!55\n'
+user_pw = ''
 
 log_ID = driver.find_element(by=By.ID, value="id")
 log_ID.click()
